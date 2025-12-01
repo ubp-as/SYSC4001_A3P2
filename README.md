@@ -5,7 +5,49 @@
 Saim Hashmi (101241041)  
 Abdullah Salman (101282570)
 
+---# SYSC4001 - Assignment 3 Part 2
+## Concurrent Exam Marking System
+
+**Students:**  
+Saim Hashmi (101241041)  
+Abdullah Salman (101282570)
+
 ---
+
+## Overview
+This project implements a concurrent system where multiple Teaching Assistants (TAs) work together to mark exams using shared memory and process synchronization.
+
+---
+## Project Structure
+.
+├── part2a.c # Part 2.a - Concurrent version (race conditions allowed)
+├── part2b.c # Part 2.b - Synchronized version (with semaphores)
+├── generating_exams.sh # Script to generate exam files
+├── data/
+│ ├── rubric.txt # Rubric file with 5 exercises
+│ └── exams/ # Directory containing exam files
+│ ├── exam01.txt
+│ ├── exam02.txt
+│ └── ...
+│ └── exam20.txt # Contains student 9999 - termination signal
+├── Part A output/ # Logs from Part 2.a runs
+├── Part B output/ # Logs from Part 2.b runs
+├── reportPartC.pdf # Deadlock, Livelock, and Execution Order Report
+└── Design_Discussion.pdf # Critical section design discussion
+
+## Requirment
+- GCC compiler
+- Linux/Unix environment
+- Standard C libraries
+
+## Compilation Instructions
+
+### Part 2.a (Concurrent - Race Conditions)
+```bash
+gcc -std=c99 -Wall -Wextra -O2 -o part2a part2a.c
+
+Part 2.b (Synchronized - Semaphores)
+gcc -std=c99 -Wall -Wextra -O2 -o part2b part2b.c
 
 ## Overview
 This project implements a concurrent system where multiple Teaching Assistants (TAs) work together to mark exams using shared memory and process synchronization.
