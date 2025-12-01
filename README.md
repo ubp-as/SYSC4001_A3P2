@@ -8,7 +8,7 @@ Abdullah Salman (101282570)
 ## Overview
 This project implements a concurrent system where multiple Teaching Assistants (TAs) work together to mark exams using shared memory and process synchronization.
 
----
+```
 ## Project Structure
 .
 ├── part2a.c # Part 2.a - Concurrent version (race conditions allowed)
@@ -25,7 +25,7 @@ This project implements a concurrent system where multiple Teaching Assistants (
 ├── Part B output/ # Logs from Part 2.b runs
 ├── reportPartC.pdf # Deadlock, Livelock, and Execution Order Report
 └── Design_Discussion.pdf # Critical section design discussion
----
+```
 
 ## Requirment
 - GCC compiler
@@ -78,7 +78,7 @@ Part 2b
 - Clean, orderly progression through exams
 
 ### Expected Output Format
----
+```
 [00025][TA 1] Starting work on student 0001
 [00026][TA 1] Inspect Q1 rubric ('A')
 [00027][TA 2] Starting work on student 0001
@@ -87,23 +87,23 @@ Part 2b
 ...
 [00045][TA 1] Claiming Q1 for student 0001
 [00050][TA 2] Claiming Q2 for student 0001
----
+```
 ### File Requirements
 
 **rubric.txt Format**
----
+```
 1, A
 2, B
 3, C
 4, D
 5, E
----
+```
 
 **Exam File Format**
----
+```
 0001
 Exam content for student 0001
----
+```
 ### Termination
 - Programs automatically terminate when student ID `9999` is processed  
 - All shared memory and semaphores are properly cleaned up  
