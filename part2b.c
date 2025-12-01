@@ -91,7 +91,7 @@ static int load_rubric_file(const char *path, shm_area_t *sh) {
     return 0;
 }
 
-/* write rubric back to file from shared memory */
+
 static int write_rubric_file(const char *path, shm_area_t *sh) {
     FILE *f = fopen(path, "w");
     if (!f) {
@@ -321,7 +321,7 @@ int main(int argc, char *argv[]) {
     const char *rubric_path = argv[2];
     const char *exam_dir = argv[3];
 
-    /* Create shared memory */
+    /* Created shared memory */
     int shmid = shmget(IPC_PRIVATE, sizeof(shm_area_t), IPC_CREAT | 0600);
     if (shmid < 0) {
         perror("shmget");
@@ -334,7 +334,7 @@ int main(int argc, char *argv[]) {
         return EXIT_FAILURE;
     }
 
-    /* Create semaphore set */
+    /* Created semaphore set */
     int semid = semget(IPC_PRIVATE, NUM_SEMS, IPC_CREAT | 0600);
     if (semid < 0) {
         perror("semget");
@@ -459,4 +459,5 @@ int main(int argc, char *argv[]) {
     semctl(semid, 0, IPC_RMID, 0);
 
     return EXIT_SUCCESS;
+
 }
