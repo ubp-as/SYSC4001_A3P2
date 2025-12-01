@@ -1,0 +1,573 @@
+[00000][PARENT] Loaded data/exams/exam01.txt (student=0001)
+[00001][TA 1] Starting work on student 0001
+[00002][TA 1] Inspect Q1 rubric ('A')
+[00003][TA 2] Starting work on student 0001
+[00004][TA 2] Inspect Q1 rubric ('A')
+[00005][TA 1] No change for Q1
+[00006][TA 1] Inspect Q2 rubric ('B')
+[00007][TA 2] Modified rubric Q1: A -> B (in SHM)
+[00008][TA 2] Inspect Q2 rubric ('B')
+[00009][PARENT] Detected rubric change in SHM; saving to file
+[00010][TA 2] Modified rubric Q2: B -> C (in SHM)
+[00011][TA 2] Inspect Q3 rubric ('C')
+[00012][TA 1] No change for Q2
+[00013][TA 1] Inspect Q3 rubric ('C')
+[00014][PARENT] Detected rubric change in SHM; saving to file
+[00015][TA 1] No change for Q3
+[00016][TA 1] Inspect Q4 rubric ('D')
+[00017][TA 2] No change for Q3
+[00018][TA 2] Inspect Q4 rubric ('D')
+[00019][TA 1] Modified rubric Q4: D -> E (in SHM)
+[00020][TA 1] Inspect Q5 rubric ('E')
+[00021][PARENT] Detected rubric change in SHM; saving to file
+[00022][TA 2] No change for Q4
+[00023][TA 2] Inspect Q5 rubric ('E')
+[00024][TA 1] No change for Q5
+[00025][TA 1] Claiming Q1 for student 0001 (rubric='B')
+[00026][TA 2] No change for Q5
+[00027][TA 2] Claiming Q1 for student 0001 (rubric='B')
+[00028][TA 1] Finished Q1 for student 0001
+[00029][TA 1] Claiming Q2 for student 0001 (rubric='C')
+[00030][TA 2] Finished Q1 for student 0001
+[00031][TA 2] Claiming Q2 for student 0001 (rubric='C')
+[00032][TA 1] Finished Q2 for student 0001
+[00033][TA 1] Claiming Q3 for student 0001 (rubric='C')
+[00034][TA 1] Finished Q3 for student 0001
+[00035][TA 1] Claiming Q4 for student 0001 (rubric='E')
+[00036][TA 2] Finished Q2 for student 0001
+[00037][TA 2] Claiming Q4 for student 0001 (rubric='E')
+[00038][TA 1] Finished Q4 for student 0001
+[00039][TA 1] Claiming Q5 for student 0001 (rubric='E')
+[00040][TA 2] Finished Q4 for student 0001
+[00041][TA 2] Claiming Q5 for student 0001 (rubric='E')
+[00042][TA 1] Finished Q5 for student 0001
+[00043][TA 1] All questions observed done for student 0001
+[00044][TA 1] Waiting for next exam to be loaded...
+[00045][PARENT] Loaded data/exams/exam02.txt (student=0002)
+[00046][TA 1] Starting work on student 0002
+[00047][TA 1] Inspect Q1 rubric ('B')
+[00048][TA 2] Finished Q5 for student 0002
+[00049][TA 2] Claiming Q1 for student 0002 (rubric='B')
+[00050][TA 1] No change for Q1
+[00051][TA 1] Inspect Q2 rubric ('C')
+[00052][TA 1] Modified rubric Q2: C -> D (in SHM)
+[00053][TA 1] Inspect Q3 rubric ('C')
+[00054][PARENT] Detected rubric change in SHM; saving to file
+[00055][TA 2] Finished Q1 for student 0002
+[00056][TA 2] Claiming Q2 for student 0002 (rubric='D')
+[00057][TA 1] No change for Q3
+[00058][TA 1] Inspect Q4 rubric ('E')
+[00059][TA 2] Finished Q2 for student 0002
+[00060][TA 2] Claiming Q3 for student 0002 (rubric='C')
+[00061][TA 1] No change for Q4
+[00062][TA 1] Inspect Q5 rubric ('E')
+[00063][TA 1] No change for Q5
+[00064][TA 1] Claiming Q3 for student 0002 (rubric='C')
+[00065][TA 2] Finished Q3 for student 0002
+[00066][TA 2] Claiming Q4 for student 0002 (rubric='E')
+[00067][TA 1] Finished Q3 for student 0002
+[00068][TA 1] Claiming Q4 for student 0002 (rubric='E')
+[00069][TA 2] Finished Q4 for student 0002
+[00070][TA 2] All questions observed done for student 0002
+[00071][TA 2] Waiting for next exam to be loaded...
+[00072][PARENT] Loaded data/exams/exam03.txt (student=0003)
+[00073][TA 2] Starting work on student 0003
+[00074][TA 2] Inspect Q1 rubric ('B')
+[00075][TA 2] Modified rubric Q1: B -> C (in SHM)
+[00076][TA 2] Inspect Q2 rubric ('D')
+[00077][PARENT] Detected rubric change in SHM; saving to file
+[00078][TA 1] Finished Q4 for student 0003
+[00079][TA 1] Claiming Q1 for student 0003 (rubric='C')
+[00080][TA 2] Modified rubric Q2: D -> E (in SHM)
+[00081][TA 2] Inspect Q3 rubric ('C')
+[00082][PARENT] Detected rubric change in SHM; saving to file
+[00083][TA 2] No change for Q3
+[00084][TA 2] Inspect Q4 rubric ('E')
+[00085][TA 2] Modified rubric Q4: E -> F (in SHM)
+[00086][TA 2] Inspect Q5 rubric ('E')
+[00087][PARENT] Detected rubric change in SHM; saving to file
+[00088][TA 1] Finished Q1 for student 0003
+[00089][TA 1] Claiming Q2 for student 0003 (rubric='E')
+[00090][TA 2] Modified rubric Q5: E -> F (in SHM)
+[00091][TA 2] Claiming Q2 for student 0003 (rubric='E')
+[00092][PARENT] Detected rubric change in SHM; saving to file
+[00093][TA 1] Finished Q2 for student 0003
+[00094][TA 1] Claiming Q3 for student 0003 (rubric='C')
+[00095][TA 2] Finished Q2 for student 0003
+[00096][TA 2] Claiming Q3 for student 0003 (rubric='C')
+[00097][TA 1] Finished Q3 for student 0003
+[00098][TA 1] Claiming Q5 for student 0003 (rubric='F')
+[00099][TA 2] Finished Q3 for student 0003
+[00100][TA 2] Claiming Q5 for student 0003 (rubric='F')
+[00101][TA 1] Finished Q5 for student 0003
+[00102][TA 1] All questions observed done for student 0003
+[00103][TA 1] Waiting for next exam to be loaded...
+[00104][PARENT] Loaded data/exams/exam04.txt (student=0004)
+[00105][TA 1] Starting work on student 0004
+[00106][TA 1] Inspect Q1 rubric ('C')
+[00107][TA 2] Finished Q5 for student 0004
+[00108][TA 2] Claiming Q1 for student 0004 (rubric='C')
+[00109][TA 1] No change for Q1
+[00110][TA 1] Inspect Q2 rubric ('E')
+[00111][TA 1] No change for Q2
+[00112][TA 1] Inspect Q3 rubric ('C')
+[00113][TA 2] Finished Q1 for student 0004
+[00114][TA 2] Claiming Q2 for student 0004 (rubric='E')
+[00115][TA 1] Modified rubric Q3: C -> D (in SHM)
+[00116][TA 1] Inspect Q4 rubric ('F')
+[00117][PARENT] Detected rubric change in SHM; saving to file
+[00118][TA 1] Modified rubric Q4: F -> G (in SHM)
+[00119][TA 1] Inspect Q5 rubric ('F')
+[00120][PARENT] Detected rubric change in SHM; saving to file
+[00121][TA 2] Finished Q2 for student 0004
+[00122][TA 2] Claiming Q3 for student 0004 (rubric='D')
+[00123][TA 1] No change for Q5
+[00124][TA 1] Claiming Q3 for student 0004 (rubric='D')
+[00125][TA 2] Finished Q3 for student 0004
+[00126][TA 2] Claiming Q4 for student 0004 (rubric='G')
+[00127][TA 1] Finished Q3 for student 0004
+[00128][TA 1] Claiming Q4 for student 0004 (rubric='G')
+[00129][TA 2] Finished Q4 for student 0004
+[00130][TA 2] All questions observed done for student 0004
+[00131][TA 2] Waiting for next exam to be loaded...
+[00132][PARENT] Loaded data/exams/exam05.txt (student=0005)
+[00133][TA 2] Starting work on student 0005
+[00134][TA 2] Inspect Q1 rubric ('C')
+[00135][TA 2] No change for Q1
+[00136][TA 2] Inspect Q2 rubric ('E')
+[00137][TA 1] Finished Q4 for student 0005
+[00138][TA 1] Claiming Q1 for student 0005 (rubric='C')
+[00139][TA 2] Modified rubric Q2: E -> F (in SHM)
+[00140][TA 2] Inspect Q3 rubric ('D')
+[00141][PARENT] Detected rubric change in SHM; saving to file
+[00142][TA 1] Finished Q1 for student 0005
+[00143][TA 1] Claiming Q2 for student 0005 (rubric='F')
+[00144][TA 2] Modified rubric Q3: D -> E (in SHM)
+[00145][TA 2] Inspect Q4 rubric ('G')
+[00146][PARENT] Detected rubric change in SHM; saving to file
+[00147][TA 2] No change for Q4
+[00148][TA 2] Inspect Q5 rubric ('F')
+[00149][TA 1] Finished Q2 for student 0005
+[00150][TA 1] Claiming Q3 for student 0005 (rubric='E')
+[00151][TA 2] No change for Q5
+[00152][TA 2] Claiming Q3 for student 0005 (rubric='E')
+[00153][TA 1] Finished Q3 for student 0005
+[00154][TA 1] Claiming Q5 for student 0005 (rubric='F')
+[00155][TA 2] Finished Q3 for student 0005
+[00156][TA 2] Claiming Q5 for student 0005 (rubric='F')
+[00157][TA 1] Finished Q5 for student 0005
+[00158][TA 1] All questions observed done for student 0005
+[00159][TA 1] Waiting for next exam to be loaded...
+[00160][PARENT] Loaded data/exams/exam06.txt (student=0006)
+[00161][TA 1] Starting work on student 0006
+[00162][TA 1] Inspect Q1 rubric ('C')
+[00163][TA 1] Modified rubric Q1: C -> D (in SHM)
+[00164][TA 1] Inspect Q2 rubric ('F')
+[00165][PARENT] Detected rubric change in SHM; saving to file
+[00166][TA 2] Finished Q5 for student 0006
+[00167][TA 2] Claiming Q1 for student 0006 (rubric='D')
+[00168][TA 1] No change for Q2
+[00169][TA 1] Inspect Q3 rubric ('E')
+[00170][TA 1] Modified rubric Q3: E -> F (in SHM)
+[00171][TA 1] Inspect Q4 rubric ('G')
+[00172][PARENT] Detected rubric change in SHM; saving to file
+[00173][TA 1] No change for Q4
+[00174][TA 1] Inspect Q5 rubric ('F')
+[00175][TA 2] Finished Q1 for student 0006
+[00176][TA 2] Claiming Q2 for student 0006 (rubric='F')
+[00177][TA 1] No change for Q5
+[00178][TA 1] Claiming Q2 for student 0006 (rubric='F')
+[00179][TA 2] Finished Q2 for student 0006
+[00180][TA 2] Claiming Q3 for student 0006 (rubric='F')
+[00181][TA 1] Finished Q2 for student 0006
+[00182][TA 1] Claiming Q3 for student 0006 (rubric='F')
+[00183][TA 2] Finished Q3 for student 0006
+[00184][TA 2] Claiming Q4 for student 0006 (rubric='G')
+[00185][TA 1] Finished Q3 for student 0006
+[00186][TA 1] Claiming Q4 for student 0006 (rubric='G')
+[00187][TA 2] Finished Q4 for student 0006
+[00188][TA 2] All questions observed done for student 0006
+[00189][TA 2] Waiting for next exam to be loaded...
+[00190][PARENT] Loaded data/exams/exam07.txt (student=0007)
+[00191][TA 2] Starting work on student 0007
+[00192][TA 2] Inspect Q1 rubric ('D')
+[00193][TA 1] Finished Q4 for student 0007
+[00194][TA 1] Claiming Q1 for student 0007 (rubric='D')
+[00195][TA 2] Modified rubric Q1: D -> E (in SHM)
+[00196][TA 2] Inspect Q2 rubric ('F')
+[00197][PARENT] Detected rubric change in SHM; saving to file
+[00198][TA 2] No change for Q2
+[00199][TA 2] Inspect Q3 rubric ('F')
+[00200][TA 2] Modified rubric Q3: F -> G (in SHM)
+[00201][TA 2] Inspect Q4 rubric ('G')
+[00202][PARENT] Detected rubric change in SHM; saving to file
+[00203][TA 1] Finished Q1 for student 0007
+[00204][TA 1] Claiming Q2 for student 0007 (rubric='F')
+[00205][TA 2] No change for Q4
+[00206][TA 2] Inspect Q5 rubric ('F')
+[00207][TA 1] Finished Q2 for student 0007
+[00208][TA 1] Claiming Q3 for student 0007 (rubric='G')
+[00209][TA 2] Modified rubric Q5: F -> G (in SHM)
+[00210][TA 2] Claiming Q3 for student 0007 (rubric='G')
+[00211][PARENT] Detected rubric change in SHM; saving to file
+[00212][TA 1] Finished Q3 for student 0007
+[00213][TA 1] Claiming Q5 for student 0007 (rubric='G')
+[00214][TA 2] Finished Q3 for student 0007
+[00215][TA 2] Claiming Q5 for student 0007 (rubric='G')
+[00216][TA 1] Finished Q5 for student 0007
+[00217][TA 1] All questions observed done for student 0007
+[00218][TA 1] Waiting for next exam to be loaded...
+[00219][PARENT] Loaded data/exams/exam08.txt (student=0008)
+[00220][TA 1] Starting work on student 0008
+[00221][TA 1] Inspect Q1 rubric ('E')
+[00222][TA 2] Finished Q5 for student 0008
+[00223][TA 2] Claiming Q1 for student 0008 (rubric='E')
+[00224][TA 1] Modified rubric Q1: E -> F (in SHM)
+[00225][TA 1] Inspect Q2 rubric ('F')
+[00226][PARENT] Detected rubric change in SHM; saving to file
+[00227][TA 1] No change for Q2
+[00228][TA 1] Inspect Q3 rubric ('G')
+[00229][TA 2] Finished Q1 for student 0008
+[00230][TA 2] Claiming Q2 for student 0008 (rubric='F')
+[00231][TA 1] Modified rubric Q3: G -> H (in SHM)
+[00232][TA 1] Inspect Q4 rubric ('G')
+[00233][PARENT] Detected rubric change in SHM; saving to file
+[00234][TA 1] Modified rubric Q4: G -> H (in SHM)
+[00235][TA 1] Inspect Q5 rubric ('G')
+[00236][TA 2] Finished Q2 for student 0008
+[00237][TA 2] Claiming Q3 for student 0008 (rubric='H')
+[00238][PARENT] Detected rubric change in SHM; saving to file
+[00239][TA 1] Modified rubric Q5: G -> H (in SHM)
+[00240][TA 1] Claiming Q3 for student 0008 (rubric='H')
+[00241][PARENT] Detected rubric change in SHM; saving to file
+[00242][TA 2] Finished Q3 for student 0008
+[00243][TA 2] Claiming Q4 for student 0008 (rubric='H')
+[00244][TA 1] Finished Q3 for student 0008
+[00245][TA 1] Claiming Q4 for student 0008 (rubric='H')
+[00246][TA 2] Finished Q4 for student 0008
+[00247][TA 2] All questions observed done for student 0008
+[00248][TA 2] Waiting for next exam to be loaded...
+[00249][PARENT] Loaded data/exams/exam09.txt (student=0009)
+[00250][TA 2] Starting work on student 0009
+[00251][TA 2] Inspect Q1 rubric ('F')
+[00252][TA 2] Modified rubric Q1: F -> G (in SHM)
+[00253][TA 2] Inspect Q2 rubric ('F')
+[00254][TA 1] Finished Q4 for student 0009
+[00255][TA 1] Claiming Q1 for student 0009 (rubric='G')
+[00256][PARENT] Detected rubric change in SHM; saving to file
+[00257][TA 2] Modified rubric Q2: F -> G (in SHM)
+[00258][TA 2] Inspect Q3 rubric ('H')
+[00259][PARENT] Detected rubric change in SHM; saving to file
+[00260][TA 1] Finished Q1 for student 0009
+[00261][TA 1] Claiming Q2 for student 0009 (rubric='G')
+[00262][TA 2] No change for Q3
+[00263][TA 2] Inspect Q4 rubric ('H')
+[00264][TA 2] No change for Q4
+[00265][TA 2] Inspect Q5 rubric ('H')
+[00266][TA 2] No change for Q5
+[00267][TA 2] Claiming Q2 for student 0009 (rubric='G')
+[00268][TA 1] Finished Q2 for student 0009
+[00269][TA 1] Claiming Q3 for student 0009 (rubric='H')
+[00270][TA 2] Finished Q2 for student 0009
+[00271][TA 2] Claiming Q3 for student 0009 (rubric='H')
+[00272][TA 1] Finished Q3 for student 0009
+[00273][TA 1] Claiming Q5 for student 0009 (rubric='H')
+[00274][TA 2] Finished Q3 for student 0009
+[00275][TA 2] Claiming Q5 for student 0009 (rubric='H')
+[00276][TA 1] Finished Q5 for student 0009
+[00277][TA 1] All questions observed done for student 0009
+[00278][TA 1] Waiting for next exam to be loaded...
+[00279][PARENT] Loaded data/exams/exam10.txt (student=0010)
+[00280][TA 1] Starting work on student 0010
+[00281][TA 1] Inspect Q1 rubric ('G')
+[00282][TA 1] Modified rubric Q1: G -> H (in SHM)
+[00283][TA 1] Inspect Q2 rubric ('G')
+[00284][TA 2] Finished Q5 for student 0010
+[00285][TA 2] Claiming Q1 for student 0010 (rubric='H')
+[00286][PARENT] Detected rubric change in SHM; saving to file
+[00287][TA 1] Modified rubric Q2: G -> H (in SHM)
+[00288][TA 1] Inspect Q3 rubric ('H')
+[00289][PARENT] Detected rubric change in SHM; saving to file
+[00290][TA 1] No change for Q3
+[00291][TA 1] Inspect Q4 rubric ('H')
+[00292][TA 2] Finished Q1 for student 0010
+[00293][TA 2] Claiming Q2 for student 0010 (rubric='H')
+[00294][TA 1] Modified rubric Q4: H -> I (in SHM)
+[00295][TA 1] Inspect Q5 rubric ('H')
+[00296][PARENT] Detected rubric change in SHM; saving to file
+[00297][TA 2] Finished Q2 for student 0010
+[00298][TA 2] Claiming Q3 for student 0010 (rubric='H')
+[00299][TA 1] No change for Q5
+[00300][TA 1] Claiming Q3 for student 0010 (rubric='H')
+[00301][TA 1] Finished Q3 for student 0010
+[00302][TA 1] Claiming Q4 for student 0010 (rubric='I')
+[00303][TA 2] Finished Q3 for student 0010
+[00304][TA 2] Claiming Q4 for student 0010 (rubric='I')
+[00305][TA 1] Finished Q4 for student 0010
+[00306][TA 1] All questions observed done for student 0010
+[00307][TA 1] Waiting for next exam to be loaded...
+[00308][PARENT] Loaded data/exams/exam11.txt (student=0011)
+[00309][TA 1] Starting work on student 0011
+[00310][TA 1] Inspect Q1 rubric ('H')
+[00311][TA 2] Finished Q4 for student 0011
+[00312][TA 2] Claiming Q1 for student 0011 (rubric='H')
+[00313][TA 1] No change for Q1
+[00314][TA 1] Inspect Q2 rubric ('H')
+[00315][TA 1] Modified rubric Q2: H -> I (in SHM)
+[00316][TA 1] Inspect Q3 rubric ('H')
+[00317][PARENT] Detected rubric change in SHM; saving to file
+[00318][TA 2] Finished Q1 for student 0011
+[00319][TA 2] Claiming Q2 for student 0011 (rubric='I')
+[00320][TA 1] No change for Q3
+[00321][TA 1] Inspect Q4 rubric ('I')
+[00322][TA 1] No change for Q4
+[00323][TA 1] Inspect Q5 rubric ('H')
+[00324][TA 1] No change for Q5
+[00325][TA 1] Claiming Q2 for student 0011 (rubric='I')
+[00326][TA 2] Finished Q2 for student 0011
+[00327][TA 2] Claiming Q3 for student 0011 (rubric='H')
+[00328][TA 2] Finished Q3 for student 0011
+[00329][TA 2] Claiming Q5 for student 0011 (rubric='H')
+[00330][TA 1] Finished Q2 for student 0011
+[00331][TA 1] Claiming Q5 for student 0011 (rubric='H')
+[00332][TA 2] Finished Q5 for student 0011
+[00333][TA 2] All questions observed done for student 0011
+[00334][TA 2] Waiting for next exam to be loaded...
+[00335][PARENT] Loaded data/exams/exam12.txt (student=0012)
+[00336][TA 2] Starting work on student 0012
+[00337][TA 2] Inspect Q1 rubric ('H')
+[00338][TA 1] Finished Q5 for student 0012
+[00339][TA 1] Claiming Q1 for student 0012 (rubric='H')
+[00340][TA 2] No change for Q1
+[00341][TA 2] Inspect Q2 rubric ('I')
+[00342][TA 2] Modified rubric Q2: I -> J (in SHM)
+[00343][TA 2] Inspect Q3 rubric ('H')
+[00344][PARENT] Detected rubric change in SHM; saving to file
+[00345][TA 1] Finished Q1 for student 0012
+[00346][TA 1] Claiming Q2 for student 0012 (rubric='J')
+[00347][TA 2] Modified rubric Q3: H -> I (in SHM)
+[00348][TA 2] Inspect Q4 rubric ('I')
+[00349][PARENT] Detected rubric change in SHM; saving to file
+[00350][TA 2] Modified rubric Q4: I -> J (in SHM)
+[00351][TA 2] Inspect Q5 rubric ('H')
+[00352][PARENT] Detected rubric change in SHM; saving to file
+[00353][TA 1] Finished Q2 for student 0012
+[00354][TA 1] Claiming Q3 for student 0012 (rubric='I')
+[00355][TA 2] Modified rubric Q5: H -> I (in SHM)
+[00356][TA 2] Claiming Q3 for student 0012 (rubric='I')
+[00357][PARENT] Detected rubric change in SHM; saving to file
+[00358][TA 1] Finished Q3 for student 0012
+[00359][TA 1] Claiming Q4 for student 0012 (rubric='J')
+[00360][TA 2] Finished Q3 for student 0012
+[00361][TA 2] Claiming Q4 for student 0012 (rubric='J')
+[00362][TA 1] Finished Q4 for student 0012
+[00363][TA 1] All questions observed done for student 0012
+[00364][TA 1] Waiting for next exam to be loaded...
+[00365][PARENT] Loaded data/exams/exam13.txt (student=0013)
+[00366][TA 1] Starting work on student 0013
+[00367][TA 1] Inspect Q1 rubric ('H')
+[00368][TA 2] Finished Q4 for student 0013
+[00369][TA 2] Claiming Q1 for student 0013 (rubric='H')
+[00370][TA 1] Modified rubric Q1: H -> I (in SHM)
+[00371][TA 1] Inspect Q2 rubric ('J')
+[00372][PARENT] Detected rubric change in SHM; saving to file
+[00373][TA 1] No change for Q2
+[00374][TA 1] Inspect Q3 rubric ('I')
+[00375][TA 2] Finished Q1 for student 0013
+[00376][TA 2] Claiming Q2 for student 0013 (rubric='J')
+[00377][TA 1] No change for Q3
+[00378][TA 1] Inspect Q4 rubric ('J')
+[00379][TA 1] Modified rubric Q4: J -> K (in SHM)
+[00380][TA 1] Inspect Q5 rubric ('I')
+[00381][TA 2] Finished Q2 for student 0013
+[00382][TA 2] Claiming Q3 for student 0013 (rubric='I')
+[00383][PARENT] Detected rubric change in SHM; saving to file
+[00384][TA 1] Modified rubric Q5: I -> J (in SHM)
+[00385][TA 1] Claiming Q3 for student 0013 (rubric='I')
+[00386][PARENT] Detected rubric change in SHM; saving to file
+[00387][TA 2] Finished Q3 for student 0013
+[00388][TA 2] Claiming Q5 for student 0013 (rubric='J')
+[00389][TA 1] Finished Q3 for student 0013
+[00390][TA 1] Claiming Q5 for student 0013 (rubric='J')
+[00391][TA 2] Finished Q5 for student 0013
+[00392][TA 2] All questions observed done for student 0013
+[00393][TA 2] Waiting for next exam to be loaded...
+[00394][PARENT] Loaded data/exams/exam14.txt (student=0014)
+[00395][TA 2] Starting work on student 0014
+[00396][TA 2] Inspect Q1 rubric ('I')
+[00397][TA 2] No change for Q1
+[00398][TA 2] Inspect Q2 rubric ('J')
+[00399][TA 2] No change for Q2
+[00400][TA 2] Inspect Q3 rubric ('I')
+[00401][TA 1] Finished Q5 for student 0014
+[00402][TA 1] Claiming Q1 for student 0014 (rubric='I')
+[00403][TA 2] No change for Q3
+[00404][TA 2] Inspect Q4 rubric ('K')
+[00405][TA 2] No change for Q4
+[00406][TA 2] Inspect Q5 rubric ('J')
+[00407][TA 2] No change for Q5
+[00408][TA 2] Claiming Q1 for student 0014 (rubric='I')
+[00409][TA 1] Finished Q1 for student 0014
+[00410][TA 1] Claiming Q2 for student 0014 (rubric='J')
+[00411][TA 1] Finished Q2 for student 0014
+[00412][TA 1] Claiming Q3 for student 0014 (rubric='I')
+[00413][TA 2] Finished Q1 for student 0014
+[00414][TA 2] Claiming Q3 for student 0014 (rubric='I')
+[00415][TA 1] Finished Q3 for student 0014
+[00416][TA 1] Claiming Q4 for student 0014 (rubric='K')
+[00417][TA 2] Finished Q3 for student 0014
+[00418][TA 2] Claiming Q4 for student 0014 (rubric='K')
+[00419][TA 1] Finished Q4 for student 0014
+[00420][TA 1] All questions observed done for student 0014
+[00421][TA 1] Waiting for next exam to be loaded...
+[00422][PARENT] Loaded data/exams/exam15.txt (student=0015)
+[00423][TA 1] Starting work on student 0015
+[00424][TA 1] Inspect Q1 rubric ('I')
+[00425][TA 2] Finished Q4 for student 0015
+[00426][TA 2] Claiming Q1 for student 0015 (rubric='I')
+[00427][TA 1] No change for Q1
+[00428][TA 1] Inspect Q2 rubric ('J')
+[00429][TA 1] No change for Q2
+[00430][TA 1] Inspect Q3 rubric ('I')
+[00431][TA 1] No change for Q3
+[00432][TA 1] Inspect Q4 rubric ('K')
+[00433][TA 2] Finished Q1 for student 0015
+[00434][TA 2] Claiming Q2 for student 0015 (rubric='J')
+[00435][TA 1] No change for Q4
+[00436][TA 1] Inspect Q5 rubric ('J')
+[00437][TA 2] Finished Q2 for student 0015
+[00438][TA 2] Claiming Q3 for student 0015 (rubric='I')
+[00439][TA 1] No change for Q5
+[00440][TA 1] Claiming Q3 for student 0015 (rubric='I')
+[00441][TA 2] Finished Q3 for student 0015
+[00442][TA 2] Claiming Q5 for student 0015 (rubric='J')
+[00443][TA 1] Finished Q3 for student 0015
+[00444][TA 1] Claiming Q5 for student 0015 (rubric='J')
+[00445][TA 1] Finished Q5 for student 0015
+[00446][TA 1] All questions observed done for student 0015
+[00447][TA 1] Waiting for next exam to be loaded...
+[00448][PARENT] Loaded data/exams/exam16.txt (student=0016)
+[00449][TA 1] Starting work on student 0016
+[00450][TA 1] Inspect Q1 rubric ('I')
+[00451][TA 2] Finished Q5 for student 0016
+[00452][TA 2] Claiming Q1 for student 0016 (rubric='I')
+[00453][TA 1] Modified rubric Q1: I -> J (in SHM)
+[00454][TA 1] Inspect Q2 rubric ('J')
+[00455][PARENT] Detected rubric change in SHM; saving to file
+[00456][TA 1] No change for Q2
+[00457][TA 1] Inspect Q3 rubric ('I')
+[00458][TA 2] Finished Q1 for student 0016
+[00459][TA 2] Claiming Q2 for student 0016 (rubric='J')
+[00460][TA 1] Modified rubric Q3: I -> J (in SHM)
+[00461][TA 1] Inspect Q4 rubric ('K')
+[00462][PARENT] Detected rubric change in SHM; saving to file
+[00463][TA 2] Finished Q2 for student 0016
+[00464][TA 2] Claiming Q3 for student 0016 (rubric='J')
+[00465][TA 1] No change for Q4
+[00466][TA 1] Inspect Q5 rubric ('J')
+[00467][TA 1] Modified rubric Q5: J -> K (in SHM)
+[00468][TA 1] Claiming Q3 for student 0016 (rubric='J')
+[00469][PARENT] Detected rubric change in SHM; saving to file
+[00470][TA 2] Finished Q3 for student 0016
+[00471][TA 2] Claiming Q4 for student 0016 (rubric='K')
+[00472][TA 1] Finished Q3 for student 0016
+[00473][TA 1] Claiming Q4 for student 0016 (rubric='K')
+[00474][TA 2] Finished Q4 for student 0016
+[00475][TA 2] All questions observed done for student 0016
+[00476][TA 2] Waiting for next exam to be loaded...
+[00477][PARENT] Loaded data/exams/exam17.txt (student=0017)
+[00478][TA 2] Starting work on student 0017
+[00479][TA 2] Inspect Q1 rubric ('J')
+[00480][TA 2] No change for Q1
+[00481][TA 2] Inspect Q2 rubric ('J')
+[00482][TA 2] No change for Q2
+[00483][TA 2] Inspect Q3 rubric ('J')
+[00484][TA 1] Finished Q4 for student 0017
+[00485][TA 1] Claiming Q1 for student 0017 (rubric='J')
+[00486][TA 2] Modified rubric Q3: J -> K (in SHM)
+[00487][TA 2] Inspect Q4 rubric ('K')
+[00488][PARENT] Detected rubric change in SHM; saving to file
+[00489][TA 2] Modified rubric Q4: K -> L (in SHM)
+[00490][TA 2] Inspect Q5 rubric ('K')
+[00491][PARENT] Detected rubric change in SHM; saving to file
+[00492][TA 1] Finished Q1 for student 0017
+[00493][TA 1] Claiming Q2 for student 0017 (rubric='J')
+[00494][TA 2] Modified rubric Q5: K -> L (in SHM)
+[00495][TA 2] Claiming Q2 for student 0017 (rubric='J')
+[00496][PARENT] Detected rubric change in SHM; saving to file
+[00497][TA 2] Finished Q2 for student 0017
+[00498][TA 2] Claiming Q3 for student 0017 (rubric='K')
+[00499][TA 1] Finished Q2 for student 0017
+[00500][TA 1] Claiming Q3 for student 0017 (rubric='K')
+[00501][TA 2] Finished Q3 for student 0017
+[00502][TA 2] Claiming Q5 for student 0017 (rubric='L')
+[00503][TA 1] Finished Q3 for student 0017
+[00504][TA 1] Claiming Q5 for student 0017 (rubric='L')
+[00505][TA 2] Finished Q5 for student 0017
+[00506][TA 2] All questions observed done for student 0017
+[00507][TA 2] Waiting for next exam to be loaded...
+[00508][PARENT] Loaded data/exams/exam18.txt (student=0018)
+[00509][TA 2] Starting work on student 0018
+[00510][TA 2] Inspect Q1 rubric ('J')
+[00511][TA 1] Finished Q5 for student 0018
+[00512][TA 1] Claiming Q1 for student 0018 (rubric='J')
+[00513][TA 2] Modified rubric Q1: J -> K (in SHM)
+[00514][TA 2] Inspect Q2 rubric ('J')
+[00515][PARENT] Detected rubric change in SHM; saving to file
+[00516][TA 2] Modified rubric Q2: J -> K (in SHM)
+[00517][TA 2] Inspect Q3 rubric ('K')
+[00518][PARENT] Detected rubric change in SHM; saving to file
+[00519][TA 1] Finished Q1 for student 0018
+[00520][TA 1] Claiming Q2 for student 0018 (rubric='K')
+[00521][TA 2] No change for Q3
+[00522][TA 2] Inspect Q4 rubric ('L')
+[00523][TA 2] No change for Q4
+[00524][TA 2] Inspect Q5 rubric ('L')
+[00525][TA 1] Finished Q2 for student 0018
+[00526][TA 1] Claiming Q3 for student 0018 (rubric='K')
+[00527][TA 2] Modified rubric Q5: L -> M (in SHM)
+[00528][TA 2] Claiming Q3 for student 0018 (rubric='K')
+[00529][PARENT] Detected rubric change in SHM; saving to file
+[00530][TA 2] Finished Q3 for student 0018
+[00531][TA 2] Claiming Q4 for student 0018 (rubric='L')
+[00532][TA 1] Finished Q3 for student 0018
+[00533][TA 1] Claiming Q4 for student 0018 (rubric='L')
+[00534][TA 2] Finished Q4 for student 0018
+[00535][TA 2] All questions observed done for student 0018
+[00536][TA 2] Waiting for next exam to be loaded...
+[00537][PARENT] Loaded data/exams/exam19.txt (student=0019)
+[00538][TA 2] Starting work on student 0019
+[00539][TA 2] Inspect Q1 rubric ('K')
+[00540][TA 1] Finished Q4 for student 0019
+[00541][TA 1] Claiming Q1 for student 0019 (rubric='K')
+[00542][TA 2] Modified rubric Q1: K -> L (in SHM)
+[00543][TA 2] Inspect Q2 rubric ('K')
+[00544][PARENT] Detected rubric change in SHM; saving to file
+[00545][TA 2] No change for Q2
+[00546][TA 2] Inspect Q3 rubric ('K')
+[00547][TA 1] Finished Q1 for student 0019
+[00548][TA 1] Claiming Q2 for student 0019 (rubric='K')
+[00549][TA 2] Modified rubric Q3: K -> L (in SHM)
+[00550][TA 2] Inspect Q4 rubric ('L')
+[00551][PARENT] Detected rubric change in SHM; saving to file
+[00552][TA 2] No change for Q4
+[00553][TA 2] Inspect Q5 rubric ('M')
+[00554][TA 1] Finished Q2 for student 0019
+[00555][TA 1] Claiming Q3 for student 0019 (rubric='L')
+[00556][TA 2] Modified rubric Q5: M -> N (in SHM)
+[00557][TA 2] Claiming Q3 for student 0019 (rubric='L')
+[00558][PARENT] Detected rubric change in SHM; saving to file
+[00559][TA 1] Finished Q3 for student 0019
+[00560][TA 1] Claiming Q5 for student 0019 (rubric='N')
+[00561][TA 2] Finished Q3 for student 0019
+[00562][TA 2] Claiming Q5 for student 0019 (rubric='N')
+[00563][TA 1] Finished Q5 for student 0019
+[00564][TA 1] All questions observed done for student 0019
+[00565][TA 1] Waiting for next exam to be loaded...
+[00566][PARENT] Loaded data/exams/exam20.txt (student=9999)
+[00567][PARENT] Sentinel student 9999 reached -> terminating.
+[00568][TA 1] terminate flag set; exiting
+[00569][PARENT] Termination signaled; waiting for children...
+[00570][TA 2] Finished Q5 for student 9999
+[00571][TA 2] terminate while marking; exiting
+[00572][PARENT] All children exited. Cleaning up shared memory.
